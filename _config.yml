@@ -1,8 +1,8 @@
 # Site settings
-title: kalkin7
-email: kalkin7@gmail.com
-author: Karl Hong
-description: "나의 테스트용 블로그"
+title: WizK
+email: kalkinblog1@gmail.com
+author: WizK
+description: "WizK Blog"
 baseurl: ""
 url: "http://www.wizk.tk/"
 google_analytics:
