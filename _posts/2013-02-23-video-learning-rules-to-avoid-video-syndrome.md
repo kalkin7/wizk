@@ -6,8 +6,15 @@ summary:    최근 비디오증후군에 대한 경각심이 일면서, 아예 �
 categories: Education
 ---
 
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer" markdown="1">
 *  Auto generated table of contents
 {:toc}
+</div>
+</section><!-- /#table-of-contents -->
 
 ## 비디오 보여줄 때 지켜야 할 점은요…
 
