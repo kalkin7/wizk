@@ -2,7 +2,7 @@
 layout:     post
 title:      올바른 부모 역할을 위한 10계명
 date:       2013-02-15 18:31:19
-summary:    '내 아이에게 무슨 일이 일어나고 있는가' 핵심요약
+summary:    「내 아이에게 무슨 일이 일어나고 있는가」 핵심요약
 categories: Education
 ---
 
