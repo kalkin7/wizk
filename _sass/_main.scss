@@ -14,7 +14,7 @@
 */
 
 body {
-  font-family: 'Open Sans', Arial, 나눔바른고딕, NanumBarunGothic, 나눔고딕, NnaumGothic, '맑은 고딕', 'Malgun Gothic', sans-serif;
+  font-family: 'Source Han Sans',Arial, 나눔바른고딕, NanumBarunGothic, 나눔고딕, NnaumGothic, '맑은 고딕', 'Malgun Gothic', sans-serif;
 }
 
 html, body {
@@ -22,7 +22,7 @@ html, body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .site-wrap {
@@ -113,7 +113,7 @@ body {
 .pagination,
 .button {
   font-size: 1rem;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Lato', 'Source Han Sans','Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -176,7 +176,7 @@ body {
 }
 
 form {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Lato', 'Source Han Sans','Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -243,7 +243,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Lato", 'Source Han Sans','Helvetica Neue', Helvetica, sans-serif;
   font-weight: 900;
   line-height: 1.2;
   margin: 1.414em 0 0.5em;
@@ -389,7 +389,7 @@ footer,
 footer .wrap {
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Lato', 'Source Han Sans','Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   clear: both;
 }
