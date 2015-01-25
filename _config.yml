@@ -5,41 +5,39 @@ author: WizK
 description: "WizK Blog"
 baseurl: ""
 url: "http://www.wizk.tk/"
-google_analytics:
-animated: false
 
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: true
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: false
+github_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
 
 # Build settings
-
-# Permalinks
-permalink:	/:title
-
-# Use kramdown as markdown parser engine.
-markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 2..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: true
-
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
-
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    /:title
+paginate:     3
+sass:
+  compressed: true
 gems:
   - jekyll-sitemap
 
 timezone: Asia/Seoul
-
-paginate: 10
-sass:
-  compressed: true
-

@@ -6,9 +6,9 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-      <div class="post {% if site.animated %}animated fade-in-down{% endif %}">
+      <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</p>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
           <h3 class="h2 post-title">{{ post.title }}</h3>
           <p class="post-summary">{{ post.summary }}</p>
         </a>
@@ -17,6 +17,4 @@ layout: default
   </div>
 
   {% include pagination.html %}
-
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 </div>

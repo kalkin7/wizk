@@ -11,6 +11,8 @@ It's pretty minimal, but leverages large type and drastic contrast to make a sta
 This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
 ([@4lpine](https://twitter.com/4lpine)).
 
+中文版 <https://github.com/ee0703/pixyll-zh-cn>.
+
 ## Getting Started
 
 If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
@@ -21,6 +23,16 @@ If you don't have Jekyll already installed, you will need to go ahead and do tha
 
 ```
 $ gem install jekyll
+```
+
+#### Verify your Jekyll version
+
+It's important to also check your version of Jekyll since this project uses Native Sass which
+is [only supported by 2.0+](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/).
+
+```
+$ jekyll -v
+# This should be jekyll 2.0.0 or later
 ```
 
 ### Fork, then clone
@@ -105,15 +117,17 @@ A relevant Jekyll Github Issue: <https://github.com/jekyll/jekyll/issues/332>
 
 ### Contact Form
 
-If you'd like to keep the contact form, which uses <http://forms.brace.io/>, you will need to update the email address.
+If you'd like to keep the contact form, which uses <http://formspree.io>, you will need to update the email address.
 
-Currently, the `contact.md` has the following:
+Currently, the `contact.html` has the following:
 
 ```html
-<form action="https://forms.brace.io/johnotander@icloud.com" method="POST" class="form-stacked form-light">
+<form action="http://formspree.io/johnotander@icloud.com" method="POST" class="form-stacked form-light">
 ```
 
 Where it says `johnotander@icloud.com`, you will need to change that to the email that you wish to have the form data sent to. It will require you to fill the form out when you push it live for the first time so that you can confirm your email.
+
+More setup instructions and advanced options can be found at [http://formspree.io](http://formspree.io/)
 
 ### Page Animation
 
@@ -126,6 +140,26 @@ If you want to give credit to the Pixyll theme with a link to <http://pixyll.com
 ### Enjoy
 
 I hope you enjoy using Pixyll. If you encounter any issues, please feel free to let me know by creating an [issue](https://github.com/johnotander/pixyll/issues). I'd love to help.
+
+## Upgrading Pixyll
+
+Pixyll is always being improved by its users, so sometimes one may need to upgrade.
+
+#### Ensure there's an upstream remote
+
+If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
+
+```
+git remote add upstream https://github.com/johnotander/pixyll.git
+```
+
+#### Pull in the latest changes
+
+```
+git pull upstream master
+```
+
+There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
 
 ## Contributing
 
