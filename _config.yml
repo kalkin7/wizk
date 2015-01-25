@@ -4,7 +4,7 @@ email: kalkinblog1@gmail.com
 author: WizK
 description: "WizK Blog"
 baseurl: ""
-url: "http://www.wizk.tk/"
+url: "http://www.wizk.tk"
 
 # Google analytics
 google_analytics:
