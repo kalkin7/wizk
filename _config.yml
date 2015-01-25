@@ -40,4 +40,8 @@ sass:
 gems:
   - jekyll-sitemap
 
+
+# Etc. Settings
 timezone: Asia/Seoul
+paginate: 10
+

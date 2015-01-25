@@ -176,35 +176,13 @@ table {
 
 .pagination,
 .button {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: 'Source Han Sans', 'NanumBarunGothic', 'NanumGothic', 'Malgun Gothic', 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
 }
 
-.pagination a, .pagination .disabled {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  background: #fafafa;
-  border-radius: 0.1875em;
-  border: 1px solid #f3f3f3;
-  color: #333333;
-  padding: 1em 1.5em;
-}
 
-.pagination .disabled {
-  opacity: 0.5;
-}
-
-.pagination a:hover, .pagination a:focus {
-  background: white;
-  color: #477dca;
-}
-
-.pagination a:active {
-  background: #f7f7f7;
-}
 
 .wrap .measure {
   margin: 0 auto;
@@ -502,6 +480,18 @@ footer .wrap {
 footer:after {
   content: "";
   display: block;
+}
+
+.pagination {
+  font-size: 0.9em;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pagination li {
+  float: left;
+  padding: 6px 12px;
+  position: relative;
 }
 
 @charset "UTF-8";
