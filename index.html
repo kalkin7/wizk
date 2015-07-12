@@ -6,16 +6,19 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-      <div class="post">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%Y년 %-m월 %-d일" }}</p>
-          <h2 class="h2 post-title">{{ post.title }}</h2>
-          <p class="post-summary">{{ post.summary }}</p>
-          <p class="entry-tags">{% for tag in post.tags %}<a href="{{ site.url }}/tag/#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
-        </a>
+      <div class="post py3">
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
       </div>
     {% endfor %}
   </div>
 
-  {% include pagination-by-pages.html %}
+  {% include pagination.html %}
 </div>
