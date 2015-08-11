@@ -1,10 +1,19 @@
 # Site settings
+<<<<<<< HEAD
 title:       WizK
 email:       kalkinblog1@gmail.com
 author:      WizK
 description: "WizK Blog"
 baseurl:     ""
 url:         "http://wizk.tk"
+=======
+title:       Pixyll
+email:       your_email@example.com
+author:      John Otander
+description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+baseurl:     ""
+url:         "http://pixyll.com"
+>>>>>>> de06d82da751c8fee9bb75cd8999d47418baa4c6
 
 # Google analytics
 google_analytics:
@@ -26,6 +35,10 @@ twitter_username:
 google_plus_id:
 linkedin_username:
 angellist_username:
+<<<<<<< HEAD
+=======
+medium_id:
+>>>>>>> de06d82da751c8fee9bb75cd8999d47418baa4c6
 bitcoin_url:
 paypal_url:
 flattr_button:
@@ -34,9 +47,15 @@ flattr_button:
 show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
+<<<<<<< HEAD
 share_facebook: true
 share_twitter: true
 share_googleplus: true
+=======
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+>>>>>>> de06d82da751c8fee9bb75cd8999d47418baa4c6
 share_linkedin: false
 share_digg: false
 share_tumblr: false
@@ -49,7 +68,11 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
+<<<<<<< HEAD
 paginate:     7
+=======
+paginate:     4
+>>>>>>> de06d82da751c8fee9bb75cd8999d47418baa4c6
 sass:
   compressed: true
 gems:
