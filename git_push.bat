@@ -7,3 +7,5 @@ set str=
 set /p str=Enter Commit Message:
 git commit -m "%str%"
 git push origin gh-pages
+cd ..
+purge_cloudflare_cache_wizk.bat
