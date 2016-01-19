@@ -50,6 +50,12 @@ share_hackernews: false
 
 # Build settings
 markdown:     kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..6
+  transliterated_header_ids: true
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    /:year/:month/:day/:title/
@@ -58,3 +64,7 @@ sass:
   compressed: true
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+
+
+encoding: utf-8
