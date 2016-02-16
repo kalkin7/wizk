@@ -6,7 +6,6 @@ summary: Cloudflare 캐시 설정을 했다
 categories: blog
 tags:
   - Blog
-  - 블로그
 ---
 
 ## Cloudflare 캐시 적용

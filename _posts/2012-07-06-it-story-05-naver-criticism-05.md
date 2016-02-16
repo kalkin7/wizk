@@ -4,6 +4,8 @@ title:      내리와 인성의 IT이야기 - 다섯번째 이야기 "스스로 
 date:       2012-07-06 5:21:19
 summary:    이 글은 개인 저장용으로 [미닉스의 작은 이야기들](http://minix.tistory.com/227)에서 퍼온 글입니다.
 categories: IT Story Webtoon
+tags:
+  - IT Story Webtoon
 ---
 
 

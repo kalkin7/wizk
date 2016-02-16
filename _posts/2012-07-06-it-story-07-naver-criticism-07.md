@@ -4,6 +4,8 @@ title:      내리와 인성의 IT이야기 - 일곱번째 이야기 "검색, �
 date:       2012-07-06 5:23:19
 summary:    이 글은 개인 저장용으로 [미닉스의 작은 이야기들](http://minix.tistory.com/234)에서 퍼온 글입니다.
 categories: IT Story Webtoon
+tags:
+  - IT Story Webtoon
 ---
 
 

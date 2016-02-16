@@ -4,6 +4,8 @@ title:      내리와 인성의 IT이야기 - 스물한번째 이야기 "애국�
 date:       2012-07-06 12:31:19
 summary:    이 글은 개인 저장용으로 [미닉스의 작은 이야기들](http://minix.tistory.com/376)에서 퍼온 글입니다.
 categories: IT Story Webtoon
+tags:
+  - IT Story Webtoon
 ---
 
 ![Alt IT-Story-21-Naver-Criticism-21-01](http://lh5.googleusercontent.com/-tzBWQ5Yii5M/T_aGFhuUrUI/AAAAAAAAAss/X-mb5vWyJS8/s0/IT-Story-21-Naver-Criticism-21-01.jpg)

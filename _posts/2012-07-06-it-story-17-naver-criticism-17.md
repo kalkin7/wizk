@@ -4,6 +4,8 @@ title:      내리와 인성의 IT이야기 - 열일곱번째 이야기 "포털�
 date:       2012-07-06 8:31:19
 summary:    이 글은 개인 저장용으로 [미닉스의 작은 이야기들](http://minix.tistory.com/362)에서 퍼온 글입니다.
 categories: IT Story Webtoon
+tags:
+  - IT Story Webtoon
 ---
 
 ![Alt IT-Story-17-Naver-Criticism-17-01](http://lh4.googleusercontent.com/-_SVnvkRwNBw/T_Z62EwRY4I/AAAAAAAAAf8/UxU7jCk-XFI/s0/IT-Story-17-Naver-Criticism-17-01.jpg)
