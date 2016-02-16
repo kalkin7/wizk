@@ -5,7 +5,7 @@ date: 2016-01-12 18:55:00
 summary: Cloudflare 캐시 설정을 했다
 categories: blog
 tags:
-  - 블로그
+  - Blog
 ---
 
 ## Cloudflare 캐시 적용

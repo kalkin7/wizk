@@ -1,10 +1,11 @@
 ---
-layout:     post
-title:      Scriptogram에서의 첫 포스팅
-date:       2012-06-06
-summary:    Scriptogram을 이용한 첫 포스팅을 해본다.
+layout: post
+title: Scriptogram에서의 첫 포스팅
+date: 2012-06-06
+summary: Scriptogram을 이용한 첫 포스팅을 해본다.
 categories: blog
-tag: blog
+tags:
+  - Blog
 ----------------
 
 [Scriptogram](http://scriptogram.com)은 상당히 특이한 블로그 플랫폼이다. 티스토리나 네이버 블로그 처럼 블로그 서비스를 제공하는 곳에 가입하고 웹브라우저 상에서 글을 올리는 형태의 블로그가 아니다.

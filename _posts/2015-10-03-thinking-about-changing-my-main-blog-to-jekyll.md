@@ -5,7 +5,7 @@ date: 2015-10-03T20:10:38.000Z
 summary: 요즘 내 메인 블로그를 jekyll로 옮길까 고민 중이다.
 categories: blog
 tags:
-  - 블로그
+  - Blog
 ---
 
 ## 메인 블로그에 대한 고민
