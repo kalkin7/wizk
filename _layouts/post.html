@@ -11,7 +11,7 @@ layout: default
 		<!-- tag "infrastructure" if there are tags -->
 		{% if page.tags != empty %} 
 			<div class="tag-icon-image"> 
-				<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
+				<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
 			</div>
 		{% endif %}
   </div>
