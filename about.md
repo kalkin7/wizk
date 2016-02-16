@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 안내
+title: About
 permalink: /about/
 ---
 
