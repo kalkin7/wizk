@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 어떤 블로그를 선택하지?
-date: 2016-02-17 18:22:00
+date: 2016-02-17 10:22:00
 summary: 어떤 블로그 플랫폼을 선택할지 고민이다.
 categories: blog
 tags:
