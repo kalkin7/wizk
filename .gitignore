@@ -9,7 +9,8 @@ Gemfile.lock
 node_modules
 package.json
 gulpfile.js
-git_blog_update.bat
+git_post_update.bat
+git_blog_maintain.bat
 git_push.bat
 gulp penthouse.bat
 jekyll watch.bat

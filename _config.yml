@@ -82,7 +82,7 @@ gems:
   - jekyll-paginate
 
 # Exclude these files from your production _site
-exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'CNAME', 'node_modules', 'git_blog_update.bat', 'git_push.bat', 'jekyll watch.bat', 'gulpfile.js', 'LICENSE', 'gulp penthouse.bat' ]
+exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'CNAME', 'node_modules', 'git_post_update.bat', 'git_push.bat', 'jekyll watch.bat', 'gulpfile.js', 'LICENSE', 'gulp penthouse.bat', 'git_blog_maintain.bat' ]
 
 timezone: Asia/Seoul
 encoding: utf-8
