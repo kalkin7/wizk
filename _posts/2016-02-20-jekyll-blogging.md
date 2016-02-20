@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 나에겐 Jekyll이 가장 편한 블로그같다
-date: 2016-02-20 19:57:00
+date: 2016-02-20 19:56:00
 summary: 이것저것 많은 블로그를 써봤지만 나에게 가장 편한 블로그는 Jekyll인 것 같다.
 categories: blog
 tags:
