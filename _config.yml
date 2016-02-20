@@ -86,4 +86,4 @@ exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'CNAME', 'node_modu
 
 timezone: Asia/Seoul
 encoding: utf-8
-future: ture
+future: false
