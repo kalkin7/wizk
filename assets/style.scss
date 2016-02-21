@@ -270,8 +270,21 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 15px;
+    text-transform: uppercase;
+    background-color: #ccc;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 6px;
+    padding: 4px 8px;
+    text-decoration: none;
+    word-break: keep-all;
+    word-wrap: break-word;
+  }
+
+  .read-more:hover {
+    background-color: #999;
+    color: #fff;
   }
 }
 

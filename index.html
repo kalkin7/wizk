@@ -10,13 +10,11 @@ layout: default
 
       <div class="entry">
           {% if post.summary %}
-            {{ post.summary }}
+            {{ post.summary }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더 보기</a>
           {% else %}
-            {{ post.excerpt | strip_html | truncatewords:40 }}
+            {{ post.excerpt | strip_html | truncatewords:40 }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더 보기</a>
           {% endif %}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
