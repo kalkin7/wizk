@@ -20,4 +20,3 @@ permalink: /archive/
         <li> <a href="{{ post.url }}">{{ post.title }}</a>  <span class="date">{{ post.date | date: "%y%m%d" }}</span></li>
 
     {% endfor %}
-</div>
