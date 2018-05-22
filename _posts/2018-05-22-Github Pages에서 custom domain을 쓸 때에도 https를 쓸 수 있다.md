@@ -23,6 +23,6 @@ Github Pages는 이전부터 SSL을 지원해왔다. xxx.github.io 형식으로 
 
 하지만 5월 1일부터 Github에서 Let’s Encrypt 를 이용해서 Custom Domain에도 https를 지원하기 시작했다. 방법은 간단하다. CNAME이나 ALIAS를 이용한 경우에는 따로 바꿀 필요가 없고, A 레코드를 이용해서 Github에 연결한 사람은 [새로운 ip](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider)를 지정해야 한다. 그 후에 옵션에서 “Enforce HTTPS” for your domain"에만 체크해주면 끝이다.
 
-이렇게 하면 https가 적용될 뿐만 아니라 CDN이 적용되면서 로딩 속도도 더 빨라진다. 
+이렇게 하면 SSL이 적용될 뿐만 아니라 CDN이 적용되면서 로딩 속도도 더 빨라진다. 
 
 Github Pages의 여러 장점들 때문에 Github Pages에 사이트를 운영하지만, https가 적용되지 않아서 아쉬웠던 분들에게 좋은 소식이 되지 않을까 싶다.
