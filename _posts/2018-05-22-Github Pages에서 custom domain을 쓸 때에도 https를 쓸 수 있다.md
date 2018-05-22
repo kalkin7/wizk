@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-date: 2018-05-22T12:00:00.000Z
+date: '2018-05-22 12:00'
 summary: 이제 Github Pages에서 custom domain을 쓸 때에도 https를 쓸 수 있다.
 categories: blog
 tags:
