@@ -9,6 +9,8 @@ tags:
 permalink: https-github-pages-custom-domain
 ---
 
+![https](https://cl.ly/rr07/https.png)
+
 ## 구글의 https 우선 정책과 Github Pages
 
 구글은 최근 https를 적용하지 않은 사이트에 검색 순위 패널티를 주고 있다. 즉, https를 적용하지 않은 사이트는 구글의 검색 순위에서 뒤로 밀린다는 말이다. 그 뿐 아니라, 현재 크롬에서는 https가 적용된 사이트는 안전함이라고 표시되고, 추후에는 https가 적용되지 않은 사이트는 안전하지 않다는 표시를 띄울 예정이라고 한다.
