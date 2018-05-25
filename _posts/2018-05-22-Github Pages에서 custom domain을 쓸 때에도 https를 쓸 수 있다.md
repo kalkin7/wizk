@@ -9,7 +9,7 @@ tags:
 permalink: https-github-pages-custom-domain
 ---
 
-![https](https://d.pr/8mDQTc.png)
+![https](https://lh3.googleusercontent.com/-1SD9GV9TTXg/Wwe6vXg7d0I/AAAAAAAB3Ok/6w7TEveiL1w1kq4o3Ph5ELV36aQTFDLUwCHMYCw/s0/https.png)
 
 ## 구글의 https 우선 정책과 Github Pages
 
