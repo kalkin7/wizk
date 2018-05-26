@@ -329,6 +329,10 @@ footer {
   padding: 0;
 }
 
+div.after_posts_list {
+  margin: 1em 0;
+}
+
 a.externalLink{padding-right:12px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAFVBMVEX///8AZswAZv8zmcxmmcyZzP////8KVYk7AAAAAXRSTlMAQObYZgAAADJJREFUeAElxrEBADAIAjBE4f+TKzZTEDxZj9cV7Gst6tfeqa8ZOalGLDS2Fl1AGr8nfTvYARCGQbyNAAAAAElFTkSuQmCC) no-repeat 100% 50%;}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
