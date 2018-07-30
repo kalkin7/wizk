@@ -203,10 +203,10 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  letter-spacing: -0.5px;
 }
 
 .site-description {
@@ -317,6 +317,20 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.after_post_title {
+  font-size: 24px;
+  font-family: "나눔스퀘어","NanumSquare","나눔바른고딕","NanumBarunGothic","나눔고딕","NanumGothic","맑은 고딕","Malgun Gothic","Spoqa Han Sans","Noto Sans CJK KR","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #222;
+  font-weight: bold;
+  line-height: 1.6;
+  margin: 1em 0 15px;
+  padding: 0;
+}
+
+div.after_posts_list {
+  margin: 1em 0;
 }
 
 a.externalLink{padding-right:12px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAFVBMVEX///8AZswAZv8zmcxmmcyZzP////8KVYk7AAAAAXRSTlMAQObYZgAAADJJREFUeAElxrEBADAIAjBE4f+TKzZTEDxZj9cV7Gst6tfeqa8ZOalGLDS2Fl1AGr8nfTvYARCGQbyNAAAAAElFTkSuQmCC) no-repeat 100% 50%;}

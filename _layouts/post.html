@@ -20,7 +20,9 @@ layout: default
     작성일: {{ page.date | date: "%Y/%m/%d" }}
   </div>
 
-  {% include related-posts.html %}
-  {% include recent-posts.html %}
+  <div class="after_posts_list">
+    {% include related-posts.html %}
+    {% include recent-posts.html %}
+  </div>
   {% include disqus.html %}
 </article>
