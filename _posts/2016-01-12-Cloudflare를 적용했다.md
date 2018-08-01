@@ -19,8 +19,7 @@ permalink: applied-cloudflare
 
 하지만 Cloudflare를 적용해보니 그리 큰 체감이 느껴지진 않는다. 한국 엣지가 있어서 좀 빨라지겠거니 했는데, 별 체감이 없어서 좀 아쉽다.
 
-<<<<<<< HEAD
+
 ※ 2018년 5월 26일 현재, Cloudfare 적용을 취소했다. Github pages에서 자체적으로 https를 지원하고, Cloudflare에서 트래픽 비용 문제 때문에 한국에서 접속할 때 한국엣지를 거치지 않도록 하는 바람에 속도가 느려져서 Cloudflare를 사용해서 얻는 잇점이 거의 없어진 상황이다. 거기다가 Github Pages에서도 CDN을 통해 사이트를 전송해서 속도가 전에 비해 많이 빨라지기도 했다.  이제는 특별한 이유가 아니면 Cloudflare를 사용할 필요가 없는 것 같다.
-=======
+
 ※ 2018년 5월 현재 Cloudflare 적용을 해제했다. Cloudflare 측에서 서울엣지 트래픽 비용이 크게 든다는 이유로, 한국에서 접속할 때 한국엣지를 사용하지 않도록 설정했다. 그 때문에 Cloudflare를 적용하면 오히려 속도가 느려진다. 또한 Github Pages에서 자체적으로 https을 지원하기 시작했고, CDN이 기본적용되서 속도까지 빨라졌으니 더 이상 Cloudflare를 사용할 이유가 없어졌다. 이제 현재 세팅대로 계속 써볼 생각이다.
->>>>>>> 5bfec8a93b1fbb808b692ebd7f6ee2c3010917c0
